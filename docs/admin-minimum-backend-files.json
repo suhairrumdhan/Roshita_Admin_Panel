@@ -1,0 +1,82 @@
+[
+  {
+    "path": "functions/src/index.js",
+    "beforeSha256": "bde40b0d5806885caca4a43de493aa5564f2f54c71a1f912a7518f6f5dcf2b46",
+    "afterSha256": "082d052adfed2ada5102f73fbb57457c10c92c01f9fb2e6df4ae79e68050fdb7"
+  },
+  {
+    "path": "functions/src/domain/registration-commands.js",
+    "beforeSha256": "d9bd5a23c63a376dcce38b71d758c6e7fbc329bd74b88a8196ab1363e9b27c66",
+    "afterSha256": "174431f4c2bb844a2b888cf5b8457f05f84918fb403b0cfdd4bef788f111a2d1"
+  },
+  {
+    "path": "functions/src/domain/admin-lists.js",
+    "beforeSha256": "ac95d143b0da94c21dc45ae68ab4788dd85c4ed2bd40903478f0785a6361e091",
+    "afterSha256": "9948fe06ec2df7a9b40c83067e0d48604cce3cf78a9d869734d4ad6f58063253"
+  },
+  {
+    "path": "functions/src/domain/admin-visibility.js",
+    "beforeSha256": "fc291e4f815a863cf0b2e184415b91d04257a428e48c1c8f9c090398c2779067",
+    "afterSha256": "c31b28f0687e7821917f7d2980337c8cb29b97cfedc6f61b0deffc9843648c64"
+  },
+  {
+    "path": "functions/src/domain/admin-delay.js",
+    "beforeSha256": null,
+    "afterSha256": "544cadca736d986017f9d22ff7864a16238e77576be942c9d517c42b070bb224"
+  },
+  {
+    "path": "functions/src/domain/admin-order-summary.js",
+    "beforeSha256": null,
+    "afterSha256": "77a8eab692b796e798b0094d49ee1286fedfeffcda4aebf61b2eb2712d5bc83c"
+  },
+  {
+    "path": "functions/src/domain/order-timers.js",
+    "beforeSha256": "bdd771afb93015b04dbf7fbf616e5d8c12137bf8f38eb451347bd9c59d97ba40",
+    "afterSha256": "faf3ea638564ae9bce8cda80c68f9cbe2cc48284f69f47e818f46bd95ed310f6"
+  },
+  {
+    "path": "functions/src/domain/order-commands.js",
+    "beforeSha256": "641e568f2f67927fe76f186b754a9b8ca1b702c49aa57a41ef19b01fa3fd61a4",
+    "afterSha256": "0092d491952872abf5ae311d8ad6bb06553934ae0cc096bbf0920aae1685bf80"
+  },
+  {
+    "path": "functions/src/domain/admin-insights.js",
+    "beforeSha256": null,
+    "afterSha256": "2e4c759985ffaddd00376ba95158a6d4f7f323f43483d61ea55c993ea7c4f8b8"
+  },
+  {
+    "path": "functions/src/domain/admin-broadcast.js",
+    "beforeSha256": null,
+    "afterSha256": "5cbc505dfa7c16cc9ed457975dc88bc0c8e433133fdb6991eff7de00c5104ae8"
+  },
+  {
+    "path": "functions/scripts/admin-backfill-lists.cjs",
+    "beforeSha256": "590cfe564af9f5444cd5ac23b04e75843458219265bb8e99cd706f05b51270c7",
+    "afterSha256": "5200aa48ba73363a442c6028c0d0d000af1408361e768b214dfbcbce807a0c9f"
+  },
+  {
+    "path": "functions/test/registration-commands.test.js",
+    "beforeSha256": "0a8a25a40d8e9b845fb6fb1b05f7e82c3ac46ec8e5ebea2ec946918ac15cdd4a",
+    "afterSha256": "704e5d5e165a4f277950f83325f78868966c94ca61e4557a19dd72821674c18c"
+  },
+  {
+    "path": "functions/test/admin-panel.test.js",
+    "beforeSha256": null,
+    "afterSha256": "c0117431b9fa977df71437b3bd68128a4702d89177941f39e0d56485a281a944"
+  },
+  {
+    "path": "firestore.rules",
+    "beforeSha256": "8a9d8b69ce1f5891d2cc3f39132dfe9e6d312308fd0709b723c6a871774ae8bd",
+    "afterSha256": "4b104b9c761783e39c0fe5c435b9df610ddc42fe03804831941ce2e4763152be"
+  },
+  {
+    "path": "firestore.indexes.json",
+    "beforeSha256": "abde86a6790a1ba741ec9daaa96016b1d4d8f0a981e85176ee76c42c4a4e8a7a",
+    "afterSha256": "abde86a6790a1ba741ec9daaa96016b1d4d8f0a981e85176ee76c42c4a4e8a7a"
+  },
+  {
+    "path": "functions/test/export-map.test.js",
+    "beforeSha256": "41a2ae90146c94179d66cd8400609b3c06ee5e926259be7a864fd3fd720a0aa0",
+    "afterSha256": "9fd9c2c5cd28d819d7e7b64cd20152f58dd9062da4e7ce455587719234f1f677"
+  }
+]

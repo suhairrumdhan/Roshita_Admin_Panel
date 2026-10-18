@@ -1,0 +1,38 @@
+/* Registration uses the panel's existing Cairo font, teal palette and controls. */
+.request-pagination{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 20px;border-top:1px solid var(--border);color:var(--muted);font-size:12px}
+.request-summary{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px;padding:16px;border:1px solid var(--border);border-radius:12px;background:#f5fbfa}
+.request-summary small,.request-event-heading small,.request-history small,.request-version small,.request-reason small{color:var(--muted);font-size:11px;font-weight:400}
+.request-summary h3{margin:5px 0 0;font-size:17px;color:var(--primary-dark)}
+.request-section-title{display:flex;align-items:center;gap:9px;margin:24px 0 14px;font-size:15px}
+.request-section-title svg{color:var(--primary)}
+.request-location{display:flex;align-items:center;gap:12px;padding:15px;border:1px solid var(--border);border-radius:12px;background:#f8fafb;flex-wrap:wrap}
+.request-location>svg{color:var(--primary)}
+.request-location>div{flex:1;min-width:160px;display:flex;flex-direction:column;gap:5px;font-size:13px}
+.request-location small{font-size:11px;color:var(--muted);direction:ltr;text-align:right}
+.request-location a{text-decoration:none;font-size:12px}
+.registration-documents{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.registration-documents .document-card{display:flex;align-items:center;gap:10px;border:1px solid var(--border);border-radius:12px;padding:14px;background:#fff;min-width:0}
+.registration-documents .document-card>svg{color:var(--primary);flex-shrink:0}
+.registration-documents .document-card>div{display:flex;flex-direction:column;flex:1;gap:5px;min-width:0}
+.registration-documents .document-card b{font-size:12px}
+.registration-documents .document-card small{font-size:10px;color:var(--muted)}
+.registration-documents .document-card a{display:flex;align-items:center;gap:5px;color:var(--primary);font-weight:700;font-size:12px;text-decoration:none}
+.registration-documents .document-card a svg{width:17px;height:17px}
+.registration-documents .document-card.missing{background:#f8fafb}
+.request-decision{margin:18px 0;padding:14px;background:#f8fafb;border-inline-start:3px solid var(--primary);border-radius:10px;font-size:12px}
+.request-decision p{margin:6px 0 0;white-space:pre-wrap;line-height:1.8}
+.request-reason{margin-top:20px}
+.request-update{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.request-history{border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.request-history article{display:flex;align-items:flex-start;gap:12px;padding:16px;border-bottom:1px solid var(--border)}
+.request-history article:last-child{border-bottom:0}
+.request-event-icon{display:grid;place-items:center;flex-shrink:0;width:34px;height:34px;background:#ecfdf5;color:var(--primary);border-radius:10px}
+.request-history article>div{flex:1;min-width:0}
+.request-event-heading{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.request-history p{margin:8px 0;font-size:12px;line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere}
+.request-empty{padding:18px;margin:0;color:var(--muted);font-size:12px;text-align:center}
+.request-version{margin-bottom:12px;border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.request-version summary{cursor:pointer;padding:14px;background:#f8fafb;font-size:13px;font-weight:700;color:var(--primary-dark)}
+.request-version summary small{margin-inline-start:14px}
+.request-version-body{padding:16px}
+@media(max-width:600px){.registration-documents{grid-template-columns:1fr}.request-pagination{flex-wrap:wrap}.request-summary{align-items:flex-start}.request-version summary small{display:block;margin:5px 0 0}.request-location a{width:100%}}

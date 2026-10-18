@@ -1,0 +1,114 @@
+[
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\App.jsx",
+    "sha256": "dc7a611df10a0988c968acb4b46b6c1404b8b9a38f6524dc113e9f7acce0aa61"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\auth.jsx",
+    "sha256": "67f9fe9929233be41f71bb7b35b5f6b1e04c2fdc12b621624ab8bb96d5a183f6"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\components.jsx",
+    "sha256": "1548703c17beff63deb8c2368c977e2d6cf21b61fba0c07de861c56583ef6b44"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\config.js",
+    "sha256": "7cb5173d6729e7ef01c867c434bd856251e4d5bf97207033c727d30a7ad8f332"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\firebase.js",
+    "sha256": "bc5a18536f1ea72bf4aed4996ec4d7b4c6efcd133cfb687fd827cd400b2b97a5"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\firebaseEnvironment.js",
+    "sha256": "755d88cf1cd80c43e723fab6d0bd1e1e040097da0f5c5cd60e02632aaf3e3110"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\firebaseEnvironment.test.js",
+    "sha256": "159fda937475b7325ef386f5cedbeb76070782a2408bd98b81bcdc5b6aa9e069"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\hooks.js",
+    "sha256": "11e5b99fa7e5e8f86e8023900c8ee698c4e4fab618efc7037bc030597dd22ef5"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\main.jsx",
+    "sha256": "d763239790b9d5964c2d5b3960ad0d8dfd4bf641d6641e9bfc8cfa525168940a"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\orderContract.test.js",
+    "sha256": "01f70231bb77b3ec6557e4c2e1486a73f286b86beb132cb1950815dc4b4ef604"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\styles.css",
+    "sha256": "fca2a0c7d9a95e98eb8b2831e1eb64c195e01c885e79054cb30017154eef9879"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\theme.css",
+    "sha256": "bd920daec8460491d10f96103a54565a9517abcd3371ca7e66775d23c8de7943"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\AdminsPage.jsx",
+    "sha256": "4f4c560d5f3276a35b3bd2ad8c45db3d02c26ba666acd7df642cb8cbf4ec5ec2"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\AlertsPage.jsx",
+    "sha256": "fe15bd403b3071792caea86d738ff902f1668e2bf6e2871e3a44cd0a053fbb3a"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\AuditPage.jsx",
+    "sha256": "ace65076b4b2bf861b99fc7e6d58371aa2cf283cc4017d3354440f706f2d9eca"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\CoveragePage.jsx",
+    "sha256": "7216f563de26a104a79c4a5162bf1a61eba661fbdb5a295a0d1488ca531e851f"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\DashboardPage.jsx",
+    "sha256": "1dc0df53b4bf08f8087357ea1309546e70decee069c16973fa554c555c5b268a"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\LoginPage.jsx",
+    "sha256": "d0b3bc61c3aad3196072eab1bfa5d42dd1397e0015c61f26f6369e371054b121"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\NotificationsPage.jsx",
+    "sha256": "d88d4383236f98c02655e5e059024710ead3da85f244863590728f8d1ea47a1b"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\OrdersPage.jsx",
+    "sha256": "02a8507027bbc778b8d44317af4e42e7d854620a8a76d3dd27f7bdfd68cfd256"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\PharmaciesPage.jsx",
+    "sha256": "3e72c9a7202ff43e9937e32875e83a44d1f84c63f57f8c655be92c6aff76a265"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\ReportsPage.jsx",
+    "sha256": "2dd2eb708c799fbf800da5037957c75da0fa887c1bafcd56a67e53caca6b60ad"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\RequestsPage.css",
+    "sha256": "c23c4c7b7730f7b41458fddda368189a830efb1a0606524ef1626a8e1ab8a40c"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\RequestsPage.jsx",
+    "sha256": "b2745d89dd628aeaf888692a89784b5b3b47982e6d7d59d6bfd977f7a818c837"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\UsersPage.jsx",
+    "sha256": "d7b7f314b19c6000b0f8a871474241c7b014ade916d75de7a57369c3eaba4188"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\services\\data.js",
+    "sha256": "dacbcad6a9f66e09f663c17940c658571bd8c742a34e84ec27fb8f91c7827946"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\services\\registration.test.js",
+    "sha256": "4502375ab5223fa97a8c9bf7290375ea740efed3de6c95ef0e941f819538e766"
+  },
+  {
+    "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\test\\setup.js",
+    "sha256": "91a3c8962a0edcb956206a501d943fe99e1c78c6d4d8b5c9a948a3362c75978c"
+  }
+]

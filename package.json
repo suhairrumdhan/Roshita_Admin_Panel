@@ -1,0 +1,38 @@
+{
+  "name": "roshita-admin-panel",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:test": "vite --mode test --host 127.0.0.1 --port 4174",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:adm02": "playwright test e2e/admin-unauthenticated.spec.js",
+    "test:critical": "npm test && npm run test:adm02"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "firebase": "latest",
+    "lucide-react": "latest",
+    "recharts": "latest",
+    "leaflet": "latest",
+    "react-leaflet": "latest",
+    "date-fns": "latest"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@testing-library/jest-dom": "7.0.1",
+    "@testing-library/react": "16.3.3",
+    "jsdom": "30.0.1",
+    "vitest": "5.0.0"
+  }
+}

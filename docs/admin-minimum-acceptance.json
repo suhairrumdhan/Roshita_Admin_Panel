@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "scope": "minimum_functional_delivery",
+  "date": "2026-09-17",
+  "executor": "user",
+  "checks": [
+    {
+      "id": "MIN-01",
+      "status": "not_run",
+      "result": null
+    },
+    {
+      "id": "MIN-02",
+      "status": "not_run",
+      "result": null
+    },
+    {
+      "id": "MIN-03",
+      "status": "not_run",
+      "result": null
+    },
+    {
+      "id": "MIN-04",
+      "status": "not_run",
+      "result": null
+    },
+    {
+      "id": "MIN-05",
+      "status": "not_run",
+      "result": null
+    },
+    {
+      "id": "MIN-06",
+      "status": "not_run",
+      "result": null
+    },
+    {
+      "id": "MIN-07",
+      "status": "not_run",
+      "result": null
+    },
+    {
+      "id": "MIN-08",
+      "status": "not_run",
+      "result": null
+    },
+    {
+      "id": "MIN-09",
+      "status": "not_run",
+      "result": null
+    },
+    {
+      "id": "MIN-10",
+      "status": "not_run",
+      "result": null
+    },
+    {
+      "id": "MIN-11",
+      "status": "not_run",
+      "result": null
+    },
+    {
+      "id": "MIN-12",
+      "status": "not_run",
+      "result": null
+    }
+  ]
+}

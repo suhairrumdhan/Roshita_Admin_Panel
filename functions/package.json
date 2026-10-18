@@ -1,0 +1,16 @@
+{
+  "name": "roshita-admin-functions-legacy",
+  "description": "Legacy compatibility shim; deploy from user_application/functions",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "verify": "node -e \"require('./index.js')\""
+  },
+  "engines": {
+    "node": "24"
+  },
+  "dependencies": {
+    "firebase-admin": "14.2.0",
+    "firebase-functions": "7.3.0"
+  }
+}

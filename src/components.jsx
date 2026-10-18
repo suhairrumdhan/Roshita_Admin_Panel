@@ -1,0 +1,13 @@
+import React from 'react';
+import { AlertTriangle, LoaderCircle, Search, X } from 'lucide-react';
+
+export function Loading({label='جاري تحميل البيانات...'}){return <div className="state"><LoaderCircle className="spin"/><span>{label}</span></div>}
+export function Empty({label='لا توجد بيانات مطابقة.'}){return <div className="state muted">{label}</div>}
+export function ErrorState({error,retry}){return <div className="state danger"><AlertTriangle/><b>تعذر تحميل البيانات</b><span>{error?.message||String(error)}</span>{retry&&<button onClick={retry}>إعادة المحاولة</button>}</div>}
+export function PageHeader({title,description,actions}){return <div className="page-header"><div><h1>{title}</h1><p>{description}</p></div>{actions&&<div className="actions">{actions}</div>}</div>}
+export function StatCard({title,value,caption,icon:Icon,tone='teal',onClick}){return <button className={`stat-card ${tone}`} onClick={onClick} disabled={!onClick}><span className="stat-icon">{Icon&&<Icon/>}</span><span><small>{title}</small><strong>{value}</strong><em>{caption}</em></span></button>}
+export function SearchBox({value,onChange,placeholder='بحث...'}){return <label className="search"><Search/><input value={value} onChange={e=>onChange(e.target.value)} placeholder={placeholder}/>{value&&<button onClick={()=>onChange('')}><X/></button>}</label>}
+export function StatusBadge({children,tone}){const text=String(children||'—');const t=tone||(/مكتمل|معتمد|نشط|active|approved|completed/i.test(text)?'success':/مرفوض|ملغي|معطل|blocked|rejected|cancel/i.test(text)?'danger':/مراجعة|تجهيز|review|process/i.test(text)?'warning':'info');return <span className={`badge ${t}`}>{text}</span>}
+export function Panel({title,subtitle,children,actions,className=''}){return <section className={`panel ${className}`}><header><div><h2>{title}</h2>{subtitle&&<p>{subtitle}</p>}</div>{actions}</header>{children}</section>}
+export function Modal({title,onClose,children,footer}){return <div className="modal-backdrop" onMouseDown={e=>e.target===e.currentTarget&&onClose()}><div className="modal"><header><h2>{title}</h2><button onClick={onClose}><X/></button></header><div className="modal-body">{children}</div>{footer&&<footer>{footer}</footer>}</div></div>}
+export function DataTable({columns,rows,onRowClick}){if(!rows.length)return <Empty/>;return <div className="table-wrap"><table><thead><tr>{columns.map(c=><th key={c.key}>{c.label}</th>)}</tr></thead><tbody>{rows.map((r,i)=><tr key={r.id||i} onClick={()=>onRowClick?.(r)} className={onRowClick?'clickable':''}>{columns.map(c=><td key={c.key}>{c.render?c.render(r):r[c.key]??'—'}</td>)}</tr>)}</tbody></table></div>}

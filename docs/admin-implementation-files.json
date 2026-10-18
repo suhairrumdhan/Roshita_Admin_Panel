@@ -1,0 +1,136 @@
+{
+  "batch": "batch-01-2026-09-17",
+  "status": "local_source_only_awaiting_user_verification",
+  "files": [
+    {
+      "path": "C:\\Users\\hp\\StudioProjects\\user_application\\functions\\src\\index.js",
+      "beforeSha256": "c3462ac0e3297207021c02ed59d612aac2e38d604914ff409a3387d0f7b037e0",
+      "afterSha256": "bde40b0d5806885caca4a43de493aa5564f2f54c71a1f912a7518f6f5dcf2b46",
+      "source": "shared_backend"
+    },
+    {
+      "path": "C:\\Users\\hp\\StudioProjects\\user_application\\functions\\src\\domain\\registration-commands.js",
+      "beforeSha256": "dbe7ae562ce55fb9a4574f1ce3a3f9b6485feda40c407a799531375a0e0e042e",
+      "afterSha256": "d9bd5a23c63a376dcce38b71d758c6e7fbc329bd74b88a8196ab1363e9b27c66",
+      "source": "shared_backend"
+    },
+    {
+      "path": "C:\\Users\\hp\\StudioProjects\\user_application\\functions\\src\\domain\\admin-lists.js",
+      "beforeSha256": null,
+      "afterSha256": "ac95d143b0da94c21dc45ae68ab4788dd85c4ed2bd40903478f0785a6361e091",
+      "source": "shared_backend"
+    },
+    {
+      "path": "C:\\Users\\hp\\StudioProjects\\user_application\\functions\\src\\domain\\admin-visibility.js",
+      "beforeSha256": null,
+      "afterSha256": "fc291e4f815a863cf0b2e184415b91d04257a428e48c1c8f9c090398c2779067",
+      "source": "shared_backend"
+    },
+    {
+      "path": "C:\\Users\\hp\\StudioProjects\\user_application\\functions\\scripts\\admin-backfill-lists.cjs",
+      "beforeSha256": null,
+      "afterSha256": "590cfe564af9f5444cd5ac23b04e75843458219265bb8e99cd706f05b51270c7",
+      "source": "shared_backend"
+    },
+    {
+      "path": "C:\\Users\\hp\\StudioProjects\\user_application\\firestore.rules",
+      "beforeSha256": "8bdaf3b18f156c3c1a8277e1a3119dac9c7d0f122632022b8472d71349dda345",
+      "afterSha256": "8a9d8b69ce1f5891d2cc3f39132dfe9e6d312308fd0709b723c6a871774ae8bd",
+      "source": "shared_backend"
+    },
+    {
+      "path": "C:\\Users\\hp\\StudioProjects\\user_application\\firestore.indexes.json",
+      "beforeSha256": "ac8f80a67a6cbd9209f44e9f8b666409abc947bf15e3284861824857a992ec35",
+      "afterSha256": "abde86a6790a1ba741ec9daaa96016b1d4d8f0a981e85176ee76c42c4a4e8a7a",
+      "source": "shared_backend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\adminContract.js",
+      "beforeSha256": null,
+      "afterSha256": "3ca088f24a56b8a997b466b3db0f3d5738e0a31ab6c6f551130aa9d1ca9fcaf5",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\config.js",
+      "beforeSha256": "7cb5173d6729e7ef01c867c434bd856251e4d5bf97207033c727d30a7ad8f332",
+      "afterSha256": "0aab42f47291a9f0446cce7b858e631be2ad34785bfde9eb9e43a91b32685e68",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\adminLists.css",
+      "beforeSha256": null,
+      "afterSha256": "6b00def8e28c4f027890cf51010c4874f72c6febd488fb582840eb12e7532bf0",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\services\\adminApi.js",
+      "beforeSha256": null,
+      "afterSha256": "9e87f7571acdc041e495bc9a45469702f3c52a1686efc0b186a3dd05010ffe17",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\services\\data.js",
+      "beforeSha256": "dacbcad6a9f66e09f663c17940c658571bd8c742a34e84ec27fb8f91c7827946",
+      "afterSha256": "cb42893f7c43ef584e28009fa18d8a62c42f3dd2c2c6f93c1d6963784753e73c",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\useAdminList.js",
+      "beforeSha256": null,
+      "afterSha256": "3b863e38c3982744154360a03a53775485b82abe34db39b4bcec054070a77653",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\components\\AdminList.jsx",
+      "beforeSha256": null,
+      "afterSha256": "0e04a1265461e3a71dfa36fd8fb7e9fb511bd3cf7e7976c4a11640bfe1289dea",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\components\\RegistrationDocuments.jsx",
+      "beforeSha256": null,
+      "afterSha256": "dc6cc08d55980368ddd3c6c87bdafe944acd25ad5a7fbe3936af46e134c8c50c",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\RequestsPage.jsx",
+      "beforeSha256": "b2745d89dd628aeaf888692a89784b5b3b47982e6d7d59d6bfd977f7a818c837",
+      "afterSha256": "8d630e8667aa8afb4bec1a9662b1ab33c10ded47c47c69b36e19371409bb5cda",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\PharmaciesPage.jsx",
+      "beforeSha256": "3e72c9a7202ff43e9937e32875e83a44d1f84c63f57f8c655be92c6aff76a265",
+      "afterSha256": "55379b024682e3edcc136a238611286e59c45ee133c8b6f7b732eb82f2c2d234",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\UsersPage.jsx",
+      "beforeSha256": "d7b7f314b19c6000b0f8a871474241c7b014ade916d75de7a57369c3eaba4188",
+      "afterSha256": "2c024ce2e3080d6b63a772c26df6c01d0b0bb417709e7a6ee4c399a2fb421714",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\OrdersPage.jsx",
+      "beforeSha256": "02a8507027bbc778b8d44317af4e42e7d854620a8a76d3dd27f7bdfd68cfd256",
+      "afterSha256": "518e4b893cd3de8ba36a36fd788ed026c39e34c162a618c6886d27b032e40b23",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\AuditPage.jsx",
+      "beforeSha256": "ace65076b4b2bf861b99fc7e6d58371aa2cf283cc4017d3354440f706f2d9eca",
+      "afterSha256": "adcc920ed29d812a2d7d9a788ce547f93b3d8364a63087243f5779db5210a0ba",
+      "source": "admin_frontend"
+    },
+    {
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\مشروع التخرج\\Roshita_Admin_Panel\\src\\pages\\NotificationsPage.jsx",
+      "beforeSha256": "d88d4383236f98c02655e5e059024710ead3da85f244863590728f8d1ea47a1b",
+      "afterSha256": "fb539389d14cd94013e6c58388a00c471b3aa00a239eb595f92c686e5b995590",
+      "source": "admin_frontend"
+    }
+  ],
+  "preservedConcurrentChange": "functions/src/index.js: getPharmacyReport registration retained",
+  "testResults": null,
+  "deployment": "not_run",
+  "migration": "not_run"
+}

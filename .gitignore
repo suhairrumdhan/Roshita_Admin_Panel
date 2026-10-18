@@ -1,0 +1,17 @@
+node_modules
+dist
+.env
+.firebase
+firebase-debug.log
+playwright-report
+test-results
+.admin-work
+
+# Local secrets, caches, and extracted scratch files
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.log
+extracted-survey.txt
+
